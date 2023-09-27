@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "985223024104",
+    "project_id": "exechair-2a110",
+    "storage_bucket": "exechair-2a110.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985223024104:android:2c3738cad67d162dc7e85d",
+        "android_client_info": {
+          "package_name": "com.example.exechair"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_VOeRuCE-53HxtDB60lLBtnDykkEKpUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
