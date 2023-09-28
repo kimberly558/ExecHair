@@ -3,10 +3,12 @@ package com.example.exechair.ui.theme.screen.product
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material3.Button
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -27,7 +29,7 @@ import androidx.navigation.compose.rememberNavController
 import com.example.exechair.R
 
 @Composable
-fun Hair(navController: NavHostController){
+fun Hair(navController: NavHostController) {
     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Image(
             painter = painterResource(id = R.drawable.salon),
@@ -38,18 +40,28 @@ fun Hair(navController: NavHostController){
         )
 
     }
-    Column(modifier = Modifier.fillMaxSize(),
-        horizontalAlignment = Alignment.CenterHorizontally) {
-        var context= LocalContext.current
-        Text(text = "Schedule Hair Appointment",
+    Column(
+        modifier = Modifier.fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        var context = LocalContext.current
+        Text(
+            text = "Schedule Hair Appointment",
             fontSize = 30.sp,
             modifier = Modifier.padding(20.dp),
             color = Color.Magenta,
-            fontWeight = FontWeight.Bold)
+            fontWeight = FontWeight.Bold
+        )
+        Text(text = "Set Date", color = Color.White)
+        Spacer(modifier = Modifier.padding(30.dp))
+        Text(text = "Set Time",color = Color.White)
+        Spacer(modifier = Modifier.padding(30.dp))
+        Button(onClick = { /*TODO*/ }) {
+            Text(text = "Book Now")
 //        add TimePicker and Date to be used as user interface
-        
 
 
+        }
     }
 }
 @Preview

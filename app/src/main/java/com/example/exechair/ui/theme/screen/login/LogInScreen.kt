@@ -1,5 +1,6 @@
 package com.example.exechair.ui.theme.screen.login
 
+import android.widget.EditText
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -29,6 +30,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
+import com.example.exechair.R
 import com.example.exechair.navigation.ROUTE_HOME
 import com.example.exechair.navigation.ROUTE_SIGNUP
 
@@ -39,6 +41,7 @@ fun LoginScreen(navController: NavHostController) {
     var email by remember { mutableStateOf(TextFieldValue("")) }
     var pass by remember { mutableStateOf(TextFieldValue("")) }
     var context= LocalContext.current
+//    val timeEditText = findViewById<EditText>(R.id.timeEditText)
     Column(modifier = Modifier
         .fillMaxSize()
         .background(Color.White),

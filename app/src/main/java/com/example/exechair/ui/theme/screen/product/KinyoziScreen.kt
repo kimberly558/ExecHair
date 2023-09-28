@@ -51,6 +51,18 @@ fun Kinyozi(navController: NavHostController) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         var context = LocalContext.current
+        Text(text = "Schedule Kinyozi Appointment",
+            fontSize = 30.sp,
+            modifier = Modifier.padding(20.dp),
+            color = Color.Magenta,
+            fontWeight = FontWeight.Bold)
+        Text(text = "Set Date")
+        Spacer(modifier = Modifier.padding(30.dp))
+        Text(text = "Set Time")
+        Spacer(modifier = Modifier.padding(30.dp))
+        Button(onClick = { /*TODO*/ }) {
+            Text(text = "Book Now")
+        }
 ////        var selectedDate by remember { mutableStateOf(null) }
 //        val Year: Int
 //        val Month: Int

@@ -8,7 +8,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.exechair.ui.theme.Contact.ContactUs
+import com.example.exechair.ui.theme.screen.Contact.ContactUs
 import com.example.exechair.ui.theme.screen.SignUp.RegisterScreen
 import com.example.exechair.ui.theme.screen.home.HomeScreen
 import com.example.exechair.ui.theme.screen.login.LoginScreen

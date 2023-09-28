@@ -1,4 +1,4 @@
-package com.example.exechair.ui.theme.Contact
+package com.example.exechair.ui.theme.screen.Contact
 
 import android.content.Intent
 import android.net.Uri
